@@ -20,10 +20,10 @@ public class MainActivity3 extends AppCompatActivity {
 
         switch (view.getId()){
             case R.id.btnInsert:
-                intent = new Intent(this, RegistrarProducto.class );
+                intent = new Intent(this, RegistrarCurso.class );
                 break;
             case R.id.btnListar:
-                intent = new Intent(this, ListaProductos.class );
+                intent = new Intent(this, ListaCursos.class );
                 break;
 
         }
